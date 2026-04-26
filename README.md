@@ -1,5 +1,7 @@
 # PERSEPHONE SERVICES DOCKER
 
+[persephone](https://github.com/secretisdead/persephone)
+
 not gonna lie, this is a little annoying to get set up but it's not too hard
 
 after cloning this repo, cd  into it and do the following
