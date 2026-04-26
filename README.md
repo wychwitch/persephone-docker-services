@@ -10,7 +10,7 @@ first, copy `.env.example` to `.env` and change any values and fill in any empty
 
 run docker compose up -d
 
-run `docker exec -it persephone-webserver-1 bash`
+run `docker exec -it persephone-frontend-1 bash`
 
 run `./install.sh`
 
@@ -24,6 +24,6 @@ change host to `backend/<DATABASE_NAME>?charset=utf8` where `<DATABASE_NAME>` is
 
 change the user and pass fields to the values you put in your .env file
 
-go to your website, and you should see an error mentioning your database. If so, run `docker exec -it persephone-webserver-1 bash` again, and run `touch /var/www/html/.installed`
+go to your website, and you should see an error mentioning your database. If so, run `docker exec -it persephone-frontend-1 bash` again, and run `touch /var/www/html/.installed`
 
 return to your site and reload, and it should work!
